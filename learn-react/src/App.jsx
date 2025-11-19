@@ -1,10 +1,11 @@
 import './App.css'
-import List from './List';
-import PackingList from './PackingList';
-import Profile from './Profile';
-import TodoList from './TodoList';
-import TodoList2 from './TodoList2';
-import TodoList3 from './TodoList3';
+import List from './(1)-quick-start/List';
+import PackingList from './(1)-quick-start/PackingList';
+import Profile from './(1)-quick-start/Profile';
+import TodoList from './(1)-quick-start/TodoList';
+import TodoList2 from './(1)-quick-start/TodoList2';
+import TodoList3 from './(1)-quick-start/TodoList3';
+import Gallery from './(2)-your-first-component/Profile2';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <TodoList3 />
       <PackingList />
       <List />
+      <Gallery />
     </section>
   );
 }
