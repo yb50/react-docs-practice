@@ -84,7 +84,7 @@ export default function TodoList() {
 
 // Solution
 
-const person = {
+const person2 = {
   name: 'Gregorio Y. Zara',
   imageUrl: "https://i.imgur.com/7vQD0fPs.jpg",
   theme: {
@@ -95,11 +95,11 @@ const person = {
 
 export default function TodoList() {
   return (
-    <div style={person.theme}>
-      <h1>{person.name}'s Todos</h1>
+    <div style={person2.theme}>
+      <h1>{person2.name}'s Todos</h1>
       <img
         className="avatar"
-        src={person.imageUrl}
+        src={person2.imageUrl}
         alt="Gregorio Y. Zara"
       />
       <ul>
@@ -145,7 +145,7 @@ export default function TodoList() {
 // Solution
 
 const baseUrl = 'https://i.imgur.com/';
-const person = {
+const person3 = {
   name: 'Gregorio Y. Zara',
   imageId: '7vQD0fP',
   imageSize: 's',
@@ -157,12 +157,12 @@ const person = {
 
 export default function TodoList() {
   return (
-    <div style={person.theme}>
-      <h1>{person.name}'s Todos</h1>
+    <div style={person3.theme}>
+      <h1>{person3.name}'s Todos</h1>
       <img
         className="avatar"
-        src={baseUrl + person.imageId + person.imageSize + '.jpg'}
-        alt={person.name}
+        src={baseUrl + person3.imageId + person3.imageSize + '.jpg'}
+        alt={person3.name}
       />
       <ul>
         <li>Improve the videophone</li>

@@ -1,4 +1,4 @@
-/* --- Challenge 1 --- */
+/* --- Challenge 1 of 4 --- */
 
 // function Profile() {
 //   return (
@@ -20,7 +20,7 @@ export default function Profile() {
   );
 }
 
-/* --- Challenge 2 --- */
+/* --- Challenge 2 of 4 --- */
 
 // export default function Profile() {
 //   return
@@ -33,7 +33,7 @@ export default function Profile() {
   return <img src="https://i.imgur.com/jA8hHMpm.jpg" alt="Katsuko Saruhashi" />;
 }
 
-/* --- Challenge 3 --- */
+/* --- Challenge 3 of 4 --- */
 
 // function profile() {
 //   return (
@@ -77,7 +77,7 @@ export default function Gallery() {
   );
 }
 
-/* --- Challenge 4 --- */
+/* --- Challenge 4 of 4 --- */
 
 // Write your component below!
 // ...
