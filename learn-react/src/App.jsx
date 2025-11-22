@@ -6,6 +6,7 @@ import TodoList from './(1)-quick-start/TodoList';
 import TodoList2 from './(1)-quick-start/TodoList2';
 import TodoList3 from './(1)-quick-start/TodoList3';
 import Gallery from './(2)-your-first-component/Profile2';
+import Test from './(6)-passing-props-to-a-component/(3)-my-playground/Test';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <PackingList />
       <List />
       <Gallery />
+      <Test />
     </section>
   );
 }
