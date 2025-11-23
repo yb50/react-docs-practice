@@ -7,6 +7,7 @@ import TodoList2 from './(1)-quick-start/TodoList2';
 import TodoList3 from './(1)-quick-start/TodoList3';
 import Gallery from './(2)-your-first-component/Profile2';
 import Test from './(6)-passing-props-to-a-component/(3)-my-playground/Test';
+import PackingList2 from './(7)-conditional-rendering/App';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
       <List />
       <Gallery />
       <Test />
+      <PackingList2 />
     </section>
   );
 }
