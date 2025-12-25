@@ -22,6 +22,8 @@ import { recipes } from './data.js';
 //   );
 // }
 
+// Solution
+
 function Recipe({ id, name, ingredients }) {
   return (
     <div>
