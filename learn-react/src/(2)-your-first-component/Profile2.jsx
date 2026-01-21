@@ -1,4 +1,4 @@
-function Profile2() {
+function FirstComponentEver() {
   return (
     <div>
       <img src="https://i.imgur.com/MK3eW3Am.jpg" alt="Katherine Johnson"/>
@@ -10,9 +10,9 @@ export default function Gallery() {
   return (
     <section>
       <h1>Amazing scientists</h1>
-      <Profile2 />
-      <Profile2 />
-      <Profile2 />
+      <FirstComponentEver />
+      <FirstComponentEver />
+      <FirstComponentEver />
     </section>
   );
 }
