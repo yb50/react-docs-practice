@@ -1,4 +1,4 @@
-// Updating objects in state
+import { useState } from 'react';
 
 export default function AddingInteractivity5() {
   const [person, setPerson] = useState({
@@ -6,7 +6,7 @@ export default function AddingInteractivity5() {
     artwork: {
       title: 'Blue Nana',
       city: 'Hamburg',
-      image: 'https://i.imgur.com/Sd1AgUOm.jpg'
+      image: 'https://i.imgur.com/Sd1AgUOm.jpg',
     }
   });
 

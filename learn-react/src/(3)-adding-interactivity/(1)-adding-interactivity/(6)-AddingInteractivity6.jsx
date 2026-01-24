@@ -1,9 +1,9 @@
-// Updating arrays in state
+import { useState } from 'react';
 
 const initialList = [
-  { id: 0, title: 'Big Bellies', seen: false},
-  { id: 1, title: 'Lunar Landscape', seen: false},
-  { id: 2, title: 'Terracotta Army', seen: true},
+  { id: 0, title: 'Big Bellies', seen: false },
+  { id: 1, title: 'Lunar Landscape', seen: false },
+  { id: 2, title: 'Terracotta Army', seen: true },
 ];
 
 export default function AddingInteractivity6() {
@@ -25,10 +25,9 @@ export default function AddingInteractivity6() {
     <>
       <h1>Art Bucket List</h1>
       <h2>My list of art to see:</h2>
-      <ItemList 
+      <ItemList
         artworks={list}
-        onToggle={handleToggle}
-      />
+        onToggle={handleToggle} />
     </>
   );
 }
@@ -39,7 +38,7 @@ function ItemList({ artworks, onToggle }) {
       {artworks.map(artwork => (
         <li key={artwork.id}>
           <label>
-            <input 
+            <input
               type="checkbox"
               checked={artwork.seen}
               onChange={e => {
@@ -52,7 +51,7 @@ function ItemList({ artworks, onToggle }) {
             {artwork.title}
           </label>
         </li>
-      ))};
+      ))}
     </ul>
   );
 }
