@@ -14,6 +14,13 @@ import AddingInteractivity3 from './(3)-adding-interactivity/(1)-adding-interact
 import AddingInteractivity4 from './(3)-adding-interactivity/(1)-adding-interactivity/(4)-AddingInteractivity4';
 import AddingInteractivity5 from './(3)-adding-interactivity/(1)-adding-interactivity/(5)-AddingInteractivity5';
 import AddingInteractivity6 from './(3)-adding-interactivity/(1)-adding-interactivity/(6)-AddingInteractivity6';
+import RespondingToEvents1 from './(3)-adding-interactivity/(2)-responding-to-events/(1)-RespondingToEvents1';
+import RespondingToEvents2 from './(3)-adding-interactivity/(2)-responding-to-events/(2)-RespondingToEvents2';
+import RespondingToEvents3 from './(3)-adding-interactivity/(2)-responding-to-events/(3)-RespondingToEvents3';
+import RespondingToEvents4 from './(3)-adding-interactivity/(2)-responding-to-events/(4)-RespondingToEvents4';
+import RespondingToEvents5 from './(3)-adding-interactivity/(2)-responding-to-events/(5)-RespondingToEvents5';
+import RespondingToEvents6 from './(3)-adding-interactivity/(2)-responding-to-events/(6)-RespondingToEvents6';
+import RespondingToEvents7 from './(3)-adding-interactivity/(2)-responding-to-events/(7)-RespondingToEvents7';
 
 export default function App() {
   return (
@@ -34,6 +41,13 @@ export default function App() {
       <AddingInteractivity4 />
       <AddingInteractivity5 />
       <AddingInteractivity6 />
+      <RespondingToEvents1 />
+      <RespondingToEvents2 />
+      <RespondingToEvents3 />
+      <RespondingToEvents4 />
+      <RespondingToEvents5 />
+      <RespondingToEvents6 />
+      <RespondingToEvents7 />      
     </section>
   );
 }
