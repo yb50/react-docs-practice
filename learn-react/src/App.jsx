@@ -22,6 +22,8 @@ import RespondingToEvents5 from './(3)-adding-interactivity/(2)-responding-to-ev
 import RespondingToEvents6 from './(3)-adding-interactivity/(2)-responding-to-events/(6)-RespondingToEvents6';
 import RespondingToEvents7 from './(3)-adding-interactivity/(2)-responding-to-events/(7)-RespondingToEvents7';
 import StateAComponentsMemory1 from './(3)-adding-interactivity/(3)-state-a-components-memory/(1)-StateAComponentsMemory1';
+import TreatStateAsReadOnly1 from './(3)-adding-interactivity/(6)-updating-objects-in-state/(1)-treat-state-as-read-only1';
+import TreatStateAsReadOnly2 from './(3)-adding-interactivity/(6)-updating-objects-in-state/(2)-treat-state-as-read-only2';
 
 export default function App() {
   return (
@@ -50,7 +52,8 @@ export default function App() {
       <RespondingToEvents6 />
       <RespondingToEvents7 />
       <StateAComponentsMemory1 />
-            
+      <TreatStateAsReadOnly1 />
+      <TreatStateAsReadOnly2 />
     </section>
   );
 }
