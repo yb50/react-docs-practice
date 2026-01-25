@@ -21,6 +21,7 @@ import RespondingToEvents4 from './(3)-adding-interactivity/(2)-responding-to-ev
 import RespondingToEvents5 from './(3)-adding-interactivity/(2)-responding-to-events/(5)-RespondingToEvents5';
 import RespondingToEvents6 from './(3)-adding-interactivity/(2)-responding-to-events/(6)-RespondingToEvents6';
 import RespondingToEvents7 from './(3)-adding-interactivity/(2)-responding-to-events/(7)-RespondingToEvents7';
+import StateAComponentsMemory1 from './(3)-adding-interactivity/(3)-state-a-components-memory/(1)-StateAComponentsMemory1';
 
 export default function App() {
   return (
@@ -47,7 +48,9 @@ export default function App() {
       <RespondingToEvents4 />
       <RespondingToEvents5 />
       <RespondingToEvents6 />
-      <RespondingToEvents7 />      
+      <RespondingToEvents7 />
+      <StateAComponentsMemory1 />
+            
     </section>
   );
 }
