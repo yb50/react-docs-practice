@@ -24,6 +24,11 @@ import RespondingToEvents7 from './(3)-adding-interactivity/(2)-responding-to-ev
 import StateAComponentsMemory1 from './(3)-adding-interactivity/(3)-state-a-components-memory/(1)-StateAComponentsMemory1';
 import TreatStateAsReadOnly1 from './(3)-adding-interactivity/(6)-updating-objects-in-state/(1)-treat-state-as-read-only1';
 import TreatStateAsReadOnly2 from './(3)-adding-interactivity/(6)-updating-objects-in-state/(2)-treat-state-as-read-only2';
+import UpdatingArraysInState3 from './(3)-adding-interactivity/(7)-updating-arrays-in-state/(3)-UpdatingArraysInState3';
+import UpdatingArraysInState4 from './(3)-adding-interactivity/(7)-updating-arrays-in-state/(4)-UpdatingArraysInState4';
+import UpdatingArraysInState5 from './(3)-adding-interactivity/(7)-updating-arrays-in-state/(5)-UpdatingArraysInState5';
+import UpdatingArraysInState6 from './(3)-adding-interactivity/(7)-updating-arrays-in-state/(6)-UpdatingArraysInState6';
+import UpdatingArraysInState7 from './(3)-adding-interactivity/(7)-updating-arrays-in-state/(7)-UpdatingArraysInState7';
 
 export default function App() {
   return (
@@ -54,6 +59,11 @@ export default function App() {
       <StateAComponentsMemory1 />
       <TreatStateAsReadOnly1 />
       <TreatStateAsReadOnly2 />
+      <UpdatingArraysInState3 />
+      <UpdatingArraysInState4 />
+      <UpdatingArraysInState5 />
+      <UpdatingArraysInState6 />
+      <UpdatingArraysInState7 />
     </section>
   );
 }
