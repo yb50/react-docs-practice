@@ -30,6 +30,7 @@ import UpdatingArraysInState5 from './(3)-adding-interactivity/(7)-updating-arra
 import UpdatingArraysInState6 from './(3)-adding-interactivity/(7)-updating-arrays-in-state/(6)-UpdatingArraysInState6';
 import UpdatingArraysInState7 from './(3)-adding-interactivity/(7)-updating-arrays-in-state/(7)-UpdatingArraysInState7';
 import ReactingToInputWithState1 from './(4)-managing-state/(1)-reacting-to-input-with-state/(1)-ReactingToInputWithState1';
+import SharingStateBetweenComponents1 from './(4)-managing-state/(3)-sharing-state-between-components/(1)-LiftingStateUpByExample1';
 
 export default function App() {
   return (
@@ -66,6 +67,7 @@ export default function App() {
       <UpdatingArraysInState6 />
       <UpdatingArraysInState7 />
       <ReactingToInputWithState1 />
+      <SharingStateBetweenComponents1 />
     </section>
   );
 }
